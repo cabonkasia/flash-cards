@@ -1,5 +1,8 @@
 h1 {
     text-align: center;
+    color:red;
+    font-family: verdana;
+    font-size: 300%;
 }
 
 .container {
@@ -7,30 +10,43 @@ h1 {
     width: 90%;
     height: 60%;
     justify-content: space-around;
+    padding-left: 100px;
 }
 
 .category {
+    align-self: center;
     display: flex;
-    width: 30%;
-    height: 200px;
+    width: 700px;
+    height: 700px;
     border: 2px solid black;
     text-align: center;
     flex-direction: column;
 }
 
-.category.btn-answer {
-
+#btn-answer {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    border-left: 2px;
 }
 
-.category.btn-question {
-   
+#btn-question {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    border-left: 2px;
 }
 
-.answer {
+#answer {
+    height: 150px;
     color: green;
+    font-size: 150%
+    text-align: center;
 }
-
-.question {
-    color: rgb(255, 0, 85);
+#question {
+    height: 150px;
+    color: rgb(13, 40, 196);
+    font-size: 150%
+    text-align: center;
 }
 
