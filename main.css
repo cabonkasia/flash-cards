@@ -6,7 +6,6 @@ h1 {
     display: flex;
     width: 90%;
     height: 60%;
-    
     justify-content: space-around;
 }
 
@@ -19,8 +18,19 @@ h1 {
     flex-direction: column;
 }
 
-.category.answer {
-    position: relative;
-    margin-bottom: 0;
+.category.btn-answer {
+
+}
+
+.category.btn-question {
+   
+}
+
+.answer {
+    color: green;
+}
+
+.question {
+    color: rgb(255, 0, 85);
 }
 
