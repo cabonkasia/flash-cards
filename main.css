@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 60%;
+    
+    justify-content: space-around;
+}
+
+.category {
+    display: flex;
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    flex-direction: column;
+}
+
+.category.answer {
+    position: relative;
+    margin-bottom: 0;
+}
+
